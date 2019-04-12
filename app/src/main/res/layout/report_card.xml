@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="#9575CD"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_margin="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CS-3 | Sem - 1 | MA110 | 22/3/14"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/att_card_strip1"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BE | Computer Science"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/att_card_strip2"
+        />
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/report_branch"
+        android:text="Computer Science"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BFBFBF"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content">
+    <TextView
+android:layout_width="match_parent"
+        android:id="@+id/report_sem"
+        android:textColor="#fff"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:text="SEM - 2"
+        />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:id="@+id/report_class"
+                android:text="CS3"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+<!--
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:textColor="#444"
+                android:id="@+id/report_total"
+                android:layout_gravity="center_horizontal"
+                android:textSize="80sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:id="@+id/report_present"
+                android:textColor="#9c005500"
+                android:layout_gravity="center_horizontal"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="10"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:id="@+id/report_absent"
+                android:textColor="#cc4444"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="MA-110"
+                android:textColor="#fff"
+                android:id="@+id/report_subject_id"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="24-8-2016"
+            android:id="@+id/report_date"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

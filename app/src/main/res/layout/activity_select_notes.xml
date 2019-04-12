@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_notes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.ExodiaSolutions.sunnynarang.itmexodia.teachers.SelectNotes">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/status"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:alpha="1"
+            android:clickable="true"
+            android:onClick="back"
+            android:id="@+id/back_btn"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:elevation="3dp"
+            android:id="@+id/select_notes_appbar"
+            android:layout_toRightOf="@id/back_btn"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="refresh_notes"
+            android:scaleType="centerCrop"
+            android:src="@drawable/refresh"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView4" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="COURSE :"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/spinner_notes_course"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:spinnerMode="dialog"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="BRANCH :"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/spinner_notes_branch"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:spinnerMode="dialog"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="SEM :"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/spinner_notes_sem"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:spinnerMode="dialog"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="SUB :"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/spinner_notes_subject"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:spinnerMode="dialog"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Serach"
+            android:layout_margin="10dp"
+            android:id="@+id/search_notes"
+            android:textColor="@color/white"
+            android:onClick="serach_notes"
+            android:background="@drawable/newimage_r"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="View Your Notes"
+            android:textColor="@color/white"
+            android:id="@+id/view_your_notes"
+            android:onClick="view_your_notes"
+            android:background="@drawable/newimage_r"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

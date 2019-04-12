@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ExodiaSolutions.sunnynarang.itmexodia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+
+        />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".teachers.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".students.Dashboard"
+            android:label="@string/title_activity_student_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ViewAttendanceTeacher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewAttendanceTeacherLv"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.Notice_Body"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.Subjects"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".teachers.MyActivity" />
+        <activity
+            android:name=".students.Files"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.Attendence"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.Routine_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.SelectClass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.EditAttendance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.UploadAttendance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.Report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.ViewReport"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.SelectNotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".teachers.ViewNotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.NewProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".guest.GuestHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".guest.AboutInstitute"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".guest.CoursesOffered"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".guest.ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".students.ClassMates"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DeveloperPage"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

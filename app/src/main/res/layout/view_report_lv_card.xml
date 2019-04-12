@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="51dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/user_wh"
+        android:id="@+id/view_reports_imge" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="shri ram choubey"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:textColor="#191919"
+            android:maxLines="1"
+            android:layout_margin="4dp"
+            android:id="@+id/view_reports_name"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="0905cs151023"
+            android:layout_width="wrap_content"
+            android:textColor="#009688"
+            android:layout_margin="4dp"
+            android:textSize="16sp"
+            android:id="@+id/view_reports_roll"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BFBFBF"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/view_reports_status"
+        android:text="P"
+        android:textColor="#009688"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:textSize="30sp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

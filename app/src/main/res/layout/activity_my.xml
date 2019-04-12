@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/button_bk_teacher"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="refresh_std_list"
+            android:scaleType="centerCrop"
+            android:src="@drawable/refresh"
+            android:layout_gravity="center_vertical"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BE"
+                android:textSize="12sp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#fff"
+                android:id="@+id/swipe_strip1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BE"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#fff"
+                android:id="@+id/swipe_strip2"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="skip_to_edit"
+            android:text="Skip"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical|right"
+            />
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/ll_flingv"
+    android:layout_weight="1">
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rotation_degrees="15.5"
+        tools:context=".MyActivity" />
+</RelativeLayout>
+
+
+    <include layout="@layout/buttons" />
+
+
+</LinearLayout>
+

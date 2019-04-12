@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guest_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.ExodiaSolutions.sunnynarang.itmexodia.guest.GuestHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+                </android.support.v4.view.ViewPager>
+
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/guest_btn"
+                android:text="About Institute"
+                android:textSize="8pt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="#fff"
+                android:onClick="about"
+                android:layout_gravity="center_horizontal"
+                />
+
+           <!--<Button
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/guest_btn"
+                android:text="Programmes Offered"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="courses"
+
+                android:layout_gravity="center_horizontal"
+                />-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/guest_btn"
+                android:text="Contact Us"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:textSize="8pt"
+                android:onClick="contact"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website: http://itmuniversity.ac.in/"
+                android:layout_margin="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="18sp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:paddingRight="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

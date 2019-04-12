@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground">
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="51dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_notice_new"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notice_head"
+            android:layout_margin="4dp"
+            android:textColor="#191919"
+            android:maxLines="1"
+            android:text="Hello This is Very Important Notice"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-12-3 03:25:45"
+            android:id="@+id/notice_time"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            android:textColor="#b3000000"
+            android:layout_gravity="right"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BFBFBF"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_android_spinner_example"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.ExodiaSolutions.sunnynarang.itmexodia.teachers.SelectClass">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/button_bk_teacher"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:alpha="1"
+        android:clickable="true"
+        android:onClick="back"
+        android:id="@+id/back_btn"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_arrow_back_white_48dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/back_btn"
+        android:text="Select Class"
+        android:elevation="3dp"
+        android:textColor="#fff"
+        android:id="@+id/select_class_appbar"
+        android:layout_centerVertical="true"
+        android:textSize="24sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:onClick="refresh"
+        android:scaleType="centerCrop"
+        android:src="@drawable/refresh"
+        android:layout_gravity="center_vertical"
+        />
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+           >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="COURSE :"
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/spinner_course"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="BRANCH :"
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinner_branch"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="BATCH :"
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/spinner_year_batch"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="SEM :"
+                android:textSize="18sp"
+                android:textColor="@color/black1"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinner_sem"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="SECTION :"
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/spinner_class"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="SUB :"
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/spinner_subject"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="TIME :"
+
+                android:textColor="@color/black1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:spinnerMode="dialog"
+                android:id="@+id/spinner_time"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="chooseDate"
+                android:background="@drawable/spinner_bck"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="24-10-2016"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ff000000"
+                    android:textSize="24sp"
+                    android:id="@+id/date_view"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:id="@+id/date_piker"
+                android:padding="4dp"
+                android:onClick="chooseDate"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/ic_date_new"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:fontFamily="sans-serif"
+        android:elevation="2dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/newimage_r"
+        android:onClick="search"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

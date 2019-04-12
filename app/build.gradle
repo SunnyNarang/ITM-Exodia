@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.ExodiaSolutions.ITMU.exodia"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // file writer and reader
+    // image loader
+
+    // card view (TEST)
+
+    //fonts
+
+
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'org.apache.commons:commons-io:1.3.2'
+    compile 'com.facebook.fresco:fresco:0.6.1'
+    compile 'com.android.support:cardview-v7:24.1.1'
+    compile 'com.github.traex.rippleeffect:library:1.3'
+
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.lorentzos.swipecards:library:1.0.9'
+    compile 'com.jakewharton:butterknife:5.1.2'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    compile 'com.google.android.gms:play-services-appindexing:9.4.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.bumptech.glide:glide:3.6.0'
+    compile 'org.jetbrains:annotations-java5:15.0'
+}

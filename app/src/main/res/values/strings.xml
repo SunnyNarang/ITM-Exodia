@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ITM University</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student_home">student_home</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="about_instute">
+        "<b>ITM University</b> is a multidisciplinary university known for its quality of research and teaching across the academic spectrum, with subjects spanning the sciences, engineering, management, fine arts, social sciences, arts, nursing etc.\n\n
+
+It has been at the forefront of learning, teaching and research and leader in many different fields in its educational endeavour. In a relatively short-time span it has created an image for its excellence as an institution of higher learning through outstanding teaching and world-class research so as to produce well-rounded graduates with lifelong abilities to provide leadership within the societies they serve. We have a well-deserved reputation for last 15 years for excellence, as demonstrated by host of educational institutions already operating under out flagship banner i.e., ITM Universe.\n\n
+
+<b>“ITM University-Gwalior”,</b> is established by the Act of State Legislature, M.P. and is notified in the Official Gazette (extra-ordinary) of the State Government after having received the assent of His Excellency Governor of M.P. Who will be the Visitor of ITM University. “ITM University-Gwalior”, is sponsored by Samata Lok Sansthan, a registered charitable Trust. The Trust was successfully running various Institutions in discipline of Engg. Technology, Life Science, Computer Applications, Management, Nursing and Education etc for last 15 years enjoying the top ranking in the State and the Region. The flagship Institutions under ITM Group of Institution (known as ‘ITM Universe’ – brand name) like Institute of Technology and Management (ITM) and Institute of Allied Science and Computer Applications (IASCA) at Gwalior are NBA and NAAC accredited respectively.\n"</string>
+    <string name="website">
+        "<a href="http://www.itmgoi.in"><b><i>http://www.itmgoi.in</i></b></a>"
+    </string>
+    <string name ="guest_login">
+        "<b><i> Continue As Guest</i></b>"
+    </string>
+
+    <string name="campus">"<b>“ITM University-Gwalior” </b>Campus is a delight to see. One sees hundreds of original works of Art permanently displayed in common areas and monumental sculptures in marble, granite, mild steel or stainless steel in open areas. There is so much of world class curricular and extra curricular activities throughout the year that the city folks of the Region eagerly awaits for each event. The largest Amphitheatre of India at ITM Campus becomes witness to ever bubbling energies of youth. There is no barrier between students and higher authorities in this Campus. Each student expresses through ITM’s various clubs. In 165 Acres sprawling lush green environs of Vindhyachal ranges, the beautiful campus of ITM University is the most Happening and Happy campus in this part of India attracting Scholars, Nobel laureates, Artists, Heads of States and Top Corporates to mingle and interact with more than 9000 students of different streams.\n"</string>
+
+</resources>

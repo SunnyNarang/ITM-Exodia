@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/activity_about_institute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+       android:padding="10dp"
+        android:orientation="vertical"
+
+        tools:context="com.ExodiaSolutions.sunnynarang.itmexodia.guest.AboutInstitute">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:src="@drawable/logo"
+        />
+</android.support.v7.widget.CardView>
+
+               <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us:"
+            android:layout_margin="10dp"
+            android:id="@+id/guest_headAbout"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guest_abouttv"
+            android:textSize="16sp"
+            android:text="@string/about_instute"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus"
+            android:layout_margin="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/campus"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/campus"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shaping Minds"
+            android:layout_margin="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="We intend to offer a rich learning environment where outstanding students and scholars from around the world are continually challenged and inspired to do their best possible work. An atmosphere that thrives on free and open inquiry and literary criticism. Our programmes are being designed for its emphasis on critical thinking and broad interdisciplinary exposure to the full range of intellectual discovery. We look forward to break down artificial disciplinary barriers."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creative Flexibility and Freedom"
+            android:layout_margin="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="The university aims to provide its students with a rich and varied academic environment through choice based credit system, modular approach, cafeteria approach, multipoint entry and exit, industry based credits, students exchange etc., that ensures opportunities for both intellectual development and the acquisition of professional knowledge and skills. It is designed in a manner that offers students necessary competencies to face the challenges of the new economic world order."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Networking with Industries and Research Institutions"
+            android:layout_margin="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="At academic front we are offering academic programmes in cooperation with University of Staffordshire, UK and University of Greenwich, London, UK. We are making endeavours to further extend this network with other well recognized Universities of the globe in the domain of dual degree, research, training, student exchange, faculty exchange and placement of students. Additionally we are proud of our research linkages with well recognized labs of the country."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Industrial Interface"
+            android:layout_margin="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="ITM Univeristy has the highest footfalls of industrial leaders in central regions. More than 20 CEO’s visit every year to share their experiences. We have an enviable track record of highest number of placements in central regions. Since experts from industry are at our Board of Studies our curriculum have rich inputs from them which eventually helps in fine-tuning learning processes and shaping students. TCS, Infosys, HP, Wipro and HP are few flagship companies who are regularly visiting our campus."
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="High standards at the University are the result of both the learning opportunities offered and resources, experienced faculties, including rich libraries, museums, state-of-art laboratories and latest softwares. Our faculties have exposure to international learning systems and are defending their research at the best Universities of the globe. We are also coming out with international journals in many disciplines. We are also proud of our state-of-art laboratories, largest library in central region, well equipped class-rooms and large inventory of softwares. All combined offers an unparalleled learning environment."
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra-Curricular Activities"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:textColor="@color/guest_primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Campus life will offer an endless feast to your mind. We offer a wealth of sporting and cultural activity at the University. Initiatives ensure that aspiring performers enrich their education with a high level of activity outside the lecture. Students beyond their classroom will have countless opportunities for involvement and extracurricular enjoyment."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

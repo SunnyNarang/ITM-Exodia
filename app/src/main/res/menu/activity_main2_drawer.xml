@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard_white_36dp"
+            android:title="Dashboard"
+            />
+        <item
+            android:id="@+id/take_attendance"
+            android:icon="@drawable/ic_equalizer_white_36dp"
+            android:title="Take Attendance"
+            />
+        <item
+            android:id="@+id/upload_attendance"
+            android:icon="@drawable/ic_file_upload_white_36dp"
+            android:title="Upload Attendance" />
+        <item
+            android:id="@+id/view_reports"
+            android:icon="@drawable/ic_insert_drive_file_white_36dp"
+            android:title="View Reports" />
+      <!--  <item
+            android:id="@+id/view_notes"
+            android:icon="@drawable/ic_library_books_white_36dp"
+            android:title="View Notes" />
+        <item
+            android:id="@+id/view_attendance"
+            android:icon="@drawable/ic_view_list_white_36dp"
+            android:title="View Attendance" />-->
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_signout"
+                android:title="Log out" />
+
+            <item
+                android:id="@+id/nav_pass"
+                android:icon="@drawable/ic_lock_black_36dp"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/developers"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+
+</menu>

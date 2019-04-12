@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/std_nav_dashboard"
+            android:icon="@drawable/ic_dashboard_white_36dp"
+            android:title="Dashboard" />
+       <!-- <item
+            android:id="@+id/std_nav_profile"
+            android:icon="@drawable/ic_person_white_36dp"
+            android:title="Profile" />
+        --><item
+            android:id="@+id/std_nav_attendance"
+            android:icon="@drawable/ic_equalizer_white_36dp"
+            android:title="Attendance" />
+        <!--<item
+            android:id="@+id/std_nav_subjects"
+            android:icon="@drawable/ic_library_books_white_36dp"
+            android:title="Subjects" />
+        <item
+            android:id="@+id/std_nav_classroutines"
+            android:icon="@drawable/ic_rounded_corner_white_36dp"
+            android:title="Class Routines" />
+        <item
+            android:id="@+id/std_nav_classmates"
+            android:icon="@drawable/ic_people_white_36dp"
+            android:title="Classmates" />-->
+        <item
+            android:id="@+id/std_nav_exit"
+            android:icon="@drawable/ic_exit_to_app_white_36dp"
+            android:title="exit" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_lock_black_36dp"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/developers"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="Developers" />
+        </menu>
+    </item>
+
+</menu>

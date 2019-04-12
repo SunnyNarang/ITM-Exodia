@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ExodiaSolutions.sunnynarang.itmexodia.teachers.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/logo"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:paddingBottom="200dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Gif"
+            android:id="@+id/gif"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            />
+
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="ITM EXODIA"
+             android:id="@+id/itm"
+             android:textSize="40dp"
+             android:layout_centerInParent="true"
+             android:textColor="@android:color/background_light" />
+
+ <ImageView
+     android:layout_width="120dp"
+     android:layout_height="120dp"
+     android:layout_centerHorizontal="true"
+     android:src="@drawable/poweredby"
+
+     android:layout_alignParentBottom="true"
+     />
+ -->
+
+    </RelativeLayout>
+
+</LinearLayout>
